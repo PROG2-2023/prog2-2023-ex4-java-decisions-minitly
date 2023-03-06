@@ -47,7 +47,7 @@ public class Main
         //System.out.print("1.First\n2.Business\n3.Economy\n");
         //System.out.print("choose the class:>");
         //c.setBookingClass(scanner.nextInt());
-
+        //
         System.out.print("1.One way\n2.Return");
         System.out.print("choose the class:>");
         c.setTripType(scanner.nextInt());
