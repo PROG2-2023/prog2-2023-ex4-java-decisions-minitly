@@ -232,7 +232,7 @@ public class FlightBooking {
      }
      public void  setDepartingTicketPrice(int child,int adults)
      {
-         this.departingTicketPrice=Math.abs((((child *((300 + (0.1*300)) + (0.05*300))) + (adults*((300 + (0.1*300)) + (0.05*300)))) + 250)*2);
+         this.departingTicketPrice=Math.abs(((child *((300 + (0.1*300)) + (0.05*300))) + (adults*((300 + (0.1*300)) + (0.05*300)))) + 250);
      }
       //14 
       public double  getReturnTicketPrice()
