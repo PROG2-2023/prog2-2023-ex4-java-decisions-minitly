@@ -4,7 +4,7 @@ public class FlightBooking {
     /////tostring old and new returning 要改逻辑
     ////ID中间数要随机生成，要求在ex4
     ////费用计算要分类，要求ex4
-    ///输出测试要改。。
+    ///returndate判断加一还是加二没血
     enum TripSource
     {
             NANJING, BEIJING, SHANGHAI, OULU, HELSINKI,  PARIS
