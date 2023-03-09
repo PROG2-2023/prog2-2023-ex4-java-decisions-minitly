@@ -188,14 +188,14 @@ public class FlightBooking {
      }
      public void setReturnDate(LocalDate returnDate)
      {
-        if(returnDate==departureDate.plusDays(1))
-        {
+        //if(returnDate==departureDate.plusDays(1))
+        //{
             this.returnDate=returnDate.plusDays(1);
-        }
-        else if(returnDate.equals(departureDate))
-        {
-            this.returnDate=returnDate.plusDays(2);
-        }
+        //}
+        //else if(returnDate.equals(departureDate))
+        //{
+        //    this.returnDate=returnDate.plusDays(2);
+        //}
      }
  
      //10 
